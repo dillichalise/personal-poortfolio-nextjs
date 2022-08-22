@@ -6,14 +6,6 @@ const Footer: NextPage = (): JSX.Element => {
     <footer className={styles.footer}>
       <div className="container text-center">
         <a
-          className="cc-facebook btn btn-link"
-          href="https://www.facebook.com/dilliraj40a"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="fa fa-facebook fa-2x" aria-hidden="true" />
-        </a>
-        <a
           className="cc-instagram btn btn-link"
           href="https://www.instagram.com/dilli.chalise/"
           target="_blank"
