@@ -30,7 +30,15 @@ const Footer: NextPage = (): JSX.Element => {
         >
           <i className="fa fa-github fa-2x" aria-hidden="true" />
         </a>
-        <a className="cc-google-plus btn btn-link" href="#" target="_blank">
+        <a
+          className="cc-github btn btn-link"
+          href="https://www.linkedin.com/in/dilli-chalise-573458134/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="fa fa-linkedin fa-2x" aria-hidden="true" />
+        </a>
+        <a className="cc-google-plus btn btn-link" href="" target="_blank">
           <i className="fa fa-google-plus fa-2x" aria-hidden="true" />
         </a>
       </div>
