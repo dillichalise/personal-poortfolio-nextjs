@@ -1,4 +1,4 @@
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Footer.module.css";
 import { NextPage } from "next";
 
 const Footer: NextPage = (): JSX.Element => {
@@ -31,7 +31,7 @@ const Footer: NextPage = (): JSX.Element => {
           <i className="fa fa-github fa-2x" aria-hidden="true" />
         </a>
         <a
-          className="cc-github btn btn-link"
+          className="cc-linkedin btn btn-link"
           href="https://www.linkedin.com/in/dilli-chalise-573458134/"
           target="_blank"
           rel="noreferrer"
