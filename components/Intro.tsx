@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Intro = () => {
   return (
     <div className="profile-page">
@@ -7,9 +9,21 @@ const Intro = () => {
             className="page-header-image"
             data-parallax="true"
             filter-color="green"
+            style={{
+              backgroundImage: `url('./intro.jpg')`,
+            }}
           />
           <div className="container">
             <div className="content-center">
+              <div className="cc-profile-image">
+                <Image
+                  className="cc-profile-image-tag"
+                  src="/dillichalise.jpg"
+                  width="160px"
+                  height="160px"
+                  alt="Profile Image"
+                />
+              </div>
               <div className="h2 title">Dilli Raj Chalise</div>
               <p className="category text-white">Web Developer</p>
               <a
